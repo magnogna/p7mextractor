@@ -81,7 +81,7 @@ cd p7mextractor
 
 3. Create a virtual environment
 ```bash
-python -m venv venv
+python -m venv env
 ```
 
 4. Install required packages using pip:
