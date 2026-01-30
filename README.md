@@ -43,23 +43,23 @@ flatpak --user install p7mextractor.flatpak
 Runtime: org.gnome.Platform (Version 49)
 SDK: org.gnome.Sdk
 
-Install required packages
+1. Install required packages
 ```bash
 flatpak-builder openssl
 ```
 
-Install required flatpak runtimes
+2. Install required flatpak runtimes
 ```bash
 flatpak install org.gnome.Sdk//49 org.gnome.Platform//49
 ```
 
-Clone this repository:
+3. Clone this repository:
 ```bash
 git clone https://github.com/magnogna/p7mextractor.git
 cd p7mextractor
 ```
 
-Build and install the flatpak
+4. Build and install the flatpak
 ```bash
 flatpak-builder --repo=repo --force-clean build_dir io.github.p7mextractor.yml
 flatpak-builder --user --install --force-clean build_dir io.github.p7mextractor.yml
