@@ -1,0 +1,5 @@
+[Runtime]
+name=io.github.p7mextractor.Locale
+
+[ExtensionOf]
+ref=app/io.github.p7mextractor/x86_64/master

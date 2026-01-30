@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=P7M Extractor
+Comment=Extract PDF documents from P7M files
+Exec=p7mextractor
+Icon=io.github.p7mextractor
+Type=Application
+Terminal=false
+Categories=Utility;Office;
+StartupNotify=true

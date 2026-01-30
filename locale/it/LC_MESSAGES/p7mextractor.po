@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: P7M Extractor 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-30 12:00+0000\n"
+"PO-Revision-Date: 2026-01-30 12:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: p7mextractor
+msgid "P7M Extractor"
+msgstr "Estrattore P7M"
+
+#: p7mextractor
+msgid "Add Files..."
+msgstr "Aggiungi File..."
+
+#: p7mextractor
+msgid "Add Folder..."
+msgstr "Aggiungi Cartella..."
+
+#: p7mextractor
+msgid "Add Files or Folders"
+msgstr "Aggiungi File o Cartelle"
+
+#: p7mextractor
+msgid "Select Folder to Import"
+msgstr "Seleziona Cartella da Importare"
+
+#: p7mextractor
+msgid "Clear List"
+msgstr "Pulisci Lista"
+
+#: p7mextractor
+msgid "Extract"
+msgstr "Estrai"
+
+#: p7mextractor
+msgid "File Name"
+msgstr "Nome File"
+
+#: p7mextractor
+msgid "Path"
+msgstr "Percorso"
+
+#: p7mextractor
+msgid "Status"
+msgstr "Stato"
+
+#: p7mextractor
+msgid "Save to specific folder"
+msgstr "Salva in cartella specifica"
+
+#: p7mextractor
+msgid "Same as source file"
+msgstr "Stessa cartella del file originale"
+
+#: p7mextractor
+msgid "Choose Folder"
+msgstr "Scegli Cartella"
+
+#: p7mextractor
+msgid "Select Export Folder"
+msgstr "Seleziona Cartella di Esportazione"
+
+#: p7mextractor
+msgid "No files added"
+msgstr "Nessun file aggiunto"
+
+#: p7mextractor
+msgid "Ready"
+msgstr "Pronto"
+
+#: p7mextractor
+msgid "Added"
+msgstr "Aggiunti"
+
+#: p7mextractor
+msgid "files"
+msgstr "file"
+
+#: p7mextractor
+msgid "Pending"
+msgstr "In attesa"
+
+#: p7mextractor
+msgid "files ready"
+msgstr "file pronti"
+
+#: p7mextractor
+msgid "Error: OpenSSL not found"
+msgstr "Errore: OpenSSL non trovato"
+
+#: p7mextractor
+msgid "Processing..."
+msgstr "Elaborazione..."
+
+#: p7mextractor
+msgid "Done"
+msgstr "Fatto"
+
+#: p7mextractor
+msgid "Error"
+msgstr "Errore"
+
+#: p7mextractor
+msgid "Extraction Complete"
+msgstr "Estrazione Completata"

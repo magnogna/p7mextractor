@@ -1,0 +1,55 @@
+{
+  "id" : "io.github.p7mextractor",
+  "runtime" : "org.gnome.Platform",
+  "runtime-version" : "49",
+  "runtime-commit" : "a884b7f190110b6de93bb7988d755ac21ba9248d7aeceab18f26795848ac7b12",
+  "sdk" : "org.gnome.Sdk",
+  "sdk-commit" : "1a30bd731d05642876ea1bbcaf54b0b240dde108bbe3c85233ba169f6a82dc16",
+  "command" : "p7mextractor",
+  "modules" : [
+    {
+      "name" : "p7mextractor",
+      "buildsystem" : "simple",
+      "sources" : [
+        {
+          "path" : "p7mextractor.py",
+          "type" : "file"
+        },
+        {
+          "path" : "locale/it/LC_MESSAGES/p7mextractor.mo",
+          "type" : "file"
+        },
+        {
+          "path" : "io.github.p7mextractor.desktop",
+          "type" : "file"
+        },
+        {
+          "path" : "io.github.p7mextractor.svg",
+          "type" : "file"
+        }
+      ],
+      "build-commands" : [
+        "install -d /app/share/locale/it/LC_MESSAGES",
+        "install -D p7mextractor.mo /app/share/locale/it/LC_MESSAGES/p7mextractor.mo",
+        "install -d /app/bin",
+        "install -D p7mextractor.py /app/bin/p7mextractor",
+        "install -d /app/share/applications",
+        "install -D io.github.p7mextractor.desktop /app/share/applications/io.github.p7mextractor.desktop",
+        "install -d /app/share/icons/hicolor/scalable/apps",
+        "install -D io.github.p7mextractor.svg /app/share/icons/hicolor/scalable/apps/io.github.p7mextractor.svg"
+      ]
+    }
+  ],
+  "finish-args" : [
+    "--socket=fallback-x11",
+    "--socket=wayland",
+    "--device=dri",
+    "--share=ipc",
+    "--filesystem=xdg-run/dconf",
+    "--filesystem=~/.config/dconf:ro",
+    "--talk-name=ca.desrt.dconf",
+    "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
+    "--filesystem=xdg-config/gtk-4.0:ro"
+  ],
+  "source-date-epoch" : 1769798138
+}

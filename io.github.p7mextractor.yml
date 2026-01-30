@@ -1,0 +1,43 @@
+app-id: io.github.p7mextractor
+runtime: org.gnome.Platform
+runtime-version: '49'
+sdk: org.gnome.Sdk
+command: p7mextractor
+
+finish-args:
+  # Display and Audio
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --device=dri
+  - --share=ipc
+
+  # Theming and Settings
+  - --filesystem=xdg-run/dconf
+  - --filesystem=~/.config/dconf:ro
+  - --talk-name=ca.desrt.dconf
+  - --env=DCONF_USER_CONFIG_DIR=.config/dconf
+ # - --filesystem=xdg-config/gtk-3.0:ro
+  - --filesystem=xdg-config/gtk-4.0:ro
+
+modules:
+  - name: p7mextractor
+    buildsystem: simple
+    build-commands:
+      - install -d /app/share/locale/it/LC_MESSAGES    
+      - install -D p7mextractor.mo /app/share/locale/it/LC_MESSAGES/p7mextractor.mo
+      - install -d /app/bin
+      - install -D p7mextractor.py /app/bin/p7mextractor   
+      - install -d /app/share/applications
+      - install -D io.github.p7mextractor.desktop /app/share/applications/io.github.p7mextractor.desktop
+      - install -d /app/share/icons/hicolor/scalable/apps
+      - install -D io.github.p7mextractor.svg /app/share/icons/hicolor/scalable/apps/io.github.p7mextractor.svg
+
+    sources:
+      - type: file
+        path: p7mextractor.py
+      - type: file
+        path: locale/it/LC_MESSAGES/p7mextractor.mo
+      - type: file
+        path: io.github.p7mextractor.desktop
+      - type: file
+        path: io.github.p7mextractor.svg

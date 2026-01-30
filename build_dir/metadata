@@ -1,0 +1,25 @@
+[Application]
+name=io.github.p7mextractor
+runtime=org.gnome.Platform/x86_64/49
+sdk=org.gnome.Sdk/x86_64/49
+command=p7mextractor
+
+[Context]
+shared=ipc;
+sockets=x11;wayland;fallback-x11;
+devices=dri;
+filesystems=xdg-run/dconf;~/.config/dconf:ro;xdg-config/gtk-4.0:ro;
+
+[Session Bus Policy]
+ca.desrt.dconf=talk
+
+[Environment]
+DCONF_USER_CONFIG_DIR=.config/dconf
+
+[Extension io.github.p7mextractor.Locale]
+directory=share/runtime/locale
+autodelete=true
+locale-subset=true
+
+[Build]
+built-extensions=io.github.p7mextractor.Locale;
