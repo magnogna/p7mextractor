@@ -6,7 +6,6 @@ User friendly GTK utility to extract PDF documents from signed P7M files
 Based on https://github.com/saikrishnamallam/P7MConverterApp and developed using AI and basic python and flatpak knowledge. I would be thankful if anyone interested in the app wants to contribute and/or help clean the code.. Since it's "vibe-coded" I can imagine it may be quite bloated.. I just needed an app to extract PDF from P7M offline, and it does its job.
 
 ## Features
-
 - GTK4
 - Batch conversion of P7M files to PDF
 - Single files and folder selection interface
@@ -18,6 +17,9 @@ Based on https://github.com/saikrishnamallam/P7MConverterApp and developed using
 
 ## Languages
 English, Italian
+
+## Screenshots
+<img width="650" height="450" alt="immagine" src="https://github.com/user-attachments/assets/e09bd5e3-1e3b-403e-82bb-e9c47d847fae" />
 
 ## Flatpak
 Runtime: org.gnome.Platform (Version 49)
