@@ -97,4 +97,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- The icon has been designed based on Hatter amazing icon pack https://github.com/Mibea/Hatter.git
+- The icon has been designed starting from Mibea's amazing Hatter icon pack https://github.com/Mibea/Hatter.git
