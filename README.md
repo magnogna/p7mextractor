@@ -16,6 +16,9 @@ Based on https://github.com/saikrishnamallam/P7MConverterApp and developed using
 - User-friendly GUI with status updates
 - Output folder selection interface
 
+## Languages
+English, Italian
+
 ## Flatpak
 Runtime: org.gnome.Platform (Version 49)
 
