@@ -1,7 +1,7 @@
-# P7M Extractor
+# ![io github p7mextractor](https://github.com/user-attachments/assets/2615b8fa-e16a-4936-9284-ce463cce1ddc) P7M Extractor
 User friendly GTK utility to extract PDF documents from signed P7M files
 
-# Development
+## Development
 
 Based on https://github.com/saikrishnamallam/P7MConverterApp and developed using AI and basic python and flatpak knowledge. I would be thankful if anyone interested in the app wants to contribute and/or help clean the code.. Since it's "vibe-coded" I can imagine it may be quite bloated.. I just needed an app to extract PDF from P7M offline, and it does its job.
 
@@ -61,6 +61,7 @@ cd p7mextractor
 
 Build and install the flatpak
 ```bash
+flatpak-builder --repo=repo --force-clean build_dir io.github.p7mextractor.yml
 flatpak-builder --user --install --force-clean build_dir io.github.p7mextractor.yml
 ```
 ## Python
