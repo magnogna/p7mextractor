@@ -64,7 +64,7 @@ flatpak install org.gnome.Sdk//49 org.gnome.Platform//49
 
 3. Clone this repository:
 ```bash
-git clone https://github.com/magnogna/p7mextractor.git
+git clone https://github.com/magnogna/p7mex.git
 cd p7mextractor
 ```
 
