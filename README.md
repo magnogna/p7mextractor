@@ -20,6 +20,9 @@ English, Italian
 
 ## Screenshots
 <img width="650" height="450" alt="immagine" src="https://github.com/user-attachments/assets/e09bd5e3-1e3b-403e-82bb-e9c47d847fae" />
+<video width="650" height="450" alt="video" src="https://github.com/user-attachments/assets/66910589-2199-44f6-baa5-becae31a152d
+" controls="controls">
+</video>
 
 
 ## Flatpak
