@@ -20,6 +20,7 @@ English, Italian
 
 ## Screenshots
 <img width="650" height="450" alt="immagine" src="https://github.com/user-attachments/assets/e09bd5e3-1e3b-403e-82bb-e9c47d847fae" />
+<img width="650" height="450" alt="immagine" src="https://codeberg.org/magnogna/magnognamediarepo/raw/commit/04344a91b8279e1af2219c5a60ce163236e35088/P7M_Exporter.gif" />
 
 ## Flatpak
 Runtime: org.gnome.Platform (Version 49)
