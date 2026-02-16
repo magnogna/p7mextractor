@@ -1,4 +1,4 @@
-# ![io github p7mextractor](https://github.com/user-attachments/assets/2615b8fa-e16a-4936-9284-ce463cce1ddc) P7M Extractor
+# ![io github p7mextractor](https://github.com/user-attachments/assets/2615b8fa-e16a-4936-9284-ce463cce1ddc) P7MEx
 User friendly GTK utility to extract PDF documents from signed P7M files
 
 ## Development
